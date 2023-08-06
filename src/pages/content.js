@@ -76,27 +76,3 @@ export const blogs = [
 		publisher: "Safety Monthly",
 	}
 ]
-
-// Achievements --> #achievement section
-export const achievements = [
-	{
-		title: "Safety Hero Award",
-		year: "2020",
-		decription: "Recognized for outstanding contributions to improving safety standards in Quahog."
-	},
-	{
-		title: "Safety Innovation Prize",
-		year: "2018",
-		decription: "Awarded for implementing innovative safety measures that yielded significant improvements."
-	},
-	{
-		title: "Community Safety Ambassador",
-		year: "2015",
-		decription: "Honored for promoting safety awareness and education in the Quahog community."
-	},
-	{
-		title: "Safety Campaign Excellence",
-		year: "2013",
-		decription: "Acknowledged for leading a successful safety campaign that reached thousands of residents."
-	}
-]
