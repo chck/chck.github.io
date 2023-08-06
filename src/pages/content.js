@@ -47,7 +47,7 @@ export const projects = [
 export const contact = [
 	{
 		source_name: "Email",
-		source: "shimekiri.today@gmail.com",
+		source: "mailto:shimekiri.today@gmail.com",
 	},
 	{
 		source_name: "LinkedIn",
