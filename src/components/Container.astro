@@ -42,23 +42,6 @@ import Card from "./Card.astro";
       }
     </AccordionLayout>
 
-   <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
-      {
-        CONTENT.certificates.map((item) => {
-          return (
-            <Card
-              title={item.title}
-              timeframe={item.issued}
-              description={item.org}
-              tags={item.description}
-              url={item.url}
-              url_name={"View Certificate"}
-            />
-          );
-        })
-      }
-    </AccordionLayout>
-
     <AccordionLayout title={"Blogs/Writings"} icon={"ic:round-edit-note"}>
       {
         CONTENT.blogs.map((item) => {

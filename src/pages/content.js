@@ -59,32 +59,6 @@ export const contact = [
 	},
 ]
 
-// Certifications --> #certificate section
-
-export const certificates = [
-	{
-		issued: "2005",
-		title: "Certified Safety Inspector",
-		org: "National Safety Association",
-		url: "https://certi.com/url",
-		description: "Certification in safety inspection and risk assessment.",
-	},
-	{
-		issued: "2006",
-		title: "Emergency Response Training",
-		org: "Quahog Safety Department",
-		url: "https://certi.com/url",
-		description: "Training in handling emergency situations and crisis management.",
-	},
-	{
-		issued: "2007",
-		title: "Safety Leadership Workshop",
-		org: "Safety Leaders International",
-		url: "https://certi.com/url",
-		description: "Leadership training in safety management and communication.",
-	}
-]
-
 // Blogs --> #blogs section
 export const blogs = [
 	{
