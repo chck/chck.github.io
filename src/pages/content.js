@@ -43,31 +43,6 @@ export const projects = [
 	}
 ]
 
-// Education --> #education section
-export const education = [
-	{
-		from: "1995",
-		to: "1999",
-		institute: "Quahog High School",
-		course: "High School Diploma",
-		location: "Quahog, Rhode Island"
-	},
-	{
-		from: "1999",
-		to: "2003",
-		institute: "Quahog Community College",
-		course: "Bachelor of Science in Safety Management",
-		location: "Quahog, Rhode Island"
-	},
-	{
-		from: "2003",
-		to: "2005",
-		institute: "Safety University",
-		course: "Master of Science in Safety Engineering",
-		location: "Boston, Massachusetts"
-	}
-]
-
 // Contact --> #contact section
 export const contact = [
 	{
