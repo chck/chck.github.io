@@ -31,11 +31,45 @@ import Card from "./Card.astro";
           return (
             <Card
               title={item.title}
-              timeframe="2022-2023"
+              timeframe={`${item.from} - ${item.to}`}
               description={item.description}
               tags={item.tech}
               url={item.url}
               url_name={"Open Project"}
+            />
+          );
+        })
+      }
+    </AccordionLayout>
+
+    <AccordionLayout title={"Education"} icon={"carbon:education"}>
+      {
+        CONTENT.education.map((item) => {
+          return (
+            <Card
+              title={item.course}
+              timeframe={`${item.from} - ${item.to}`}
+              description={item.location}
+              tags={""}
+              url={"#"}
+              url_name={item.institute}
+            />
+          );
+        })
+      }
+    </AccordionLayout>
+
+    <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
+      {
+        CONTENT.certificates.map((item) => {
+          return (
+            <Card
+              title={item.title}
+              timeframe={item.issued}
+              description={item.org}
+              tags={item.description}
+              url={item.url}
+              url_name={"View Certificate"}
             />
           );
         })
@@ -53,6 +87,23 @@ import Card from "./Card.astro";
               tags=""
               url={item.url}
               url_name={item.publisher}
+            />
+          );
+        })
+      }
+    </AccordionLayout>
+
+    <AccordionLayout title={"Achievements"} icon={"mdi:trophy-award"}>
+      {
+        CONTENT.achievements.map((item) => {
+          return (
+            <Card
+              title={item.title}
+              timeframe={item.year}
+              description={item.decription}
+              tags=""
+              url="#"
+              url_name=""
             />
           );
         })
