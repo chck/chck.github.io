@@ -23,30 +23,38 @@ export const work = [
 
 // Projects --> #project section
 export const projects = [
-//	{
-//		from: "2023",
-//		to: "Present",
-//		title: "Project Griffin",
-//		description: "A project to improve safety standards in Quahog by implementing innovative safety measures.",
-//		url: "https://projectgriffin.com",
-//		tech: "Safety Equipment, Training Programs, Community Outreach",
-//	},
-//	{
-//		from: "2023",
-//		to: "2022",
-//		title: "Family Safety Campaign",
-//		description: "An initiative to promote safety awareness among families in Quahog.",
-//		url: "https://safefamilyquahog.com",
-//		tech: "Workshops, Educational Material, Public Events",
-//	},
-//	{
-//		from: "2020",
-//		to: "2021",
-//		title: "Road Safety Initiative",
-//		description: "A campaign to enhance road safety and reduce accidents in Quahog.",
-//		url: "https://roadsafetyquahog.com",
-//		tech: "Traffic Analysis, Signage Improvement, Public Awareness",
-//	}
+	{
+		from: "2014",
+		to: "2015",
+		title: "Backend Engineering (GameLogic/Audience, Smalgo)",
+		description: "An online advertising system as demand-side platform (DSP) to focus on mobile game publishers.",
+		url: "https://www.slideshare.net/Satully/adtechstudio-20140301",
+		tech: "Java, MySQL, Redis, Ruby on Rails, Angular, AWS",
+	},
+	{
+		from: "2015",
+		to: "2016",
+		title: "Backend Engineering (Game Tailor)",
+		description: "A dynamic retargeting ad product for smartphone apps. Tailor-made ads generated based on each game user status such as game level, selected characters and log in frequency will be served to worldwide game users through social medias.",
+		url: "https://rtbsquare.work/archives/6067",
+		tech: "Scala, MySQL, Aerospike, Apache Spark, RedShift, AWS",
+	},
+	{
+		from: "2016",
+		to: "2017",
+		title: "Backend Engineering and Data Science (iXamDrive)",
+		description: "An operation platform for in-feed advertising. It can publish dynamic ads social media such as Facebook, Twitter, and LINE as official partner.",
+		url: "https://rtbsquare.work/archives/13423",
+		tech: "Scala, Java, Finagle, Python, TensorFlow, AWS, GCP",
+	},
+	{
+		from: "2017",
+		to: "Present",
+		title: "Research Engineering (AI Lab)",
+		description: "Scale R&D in my company via engineering such as MLOps and ResearchOps",
+		url: "https://cyberagent.ai/ailab/",
+		tech: "NLP, Computer Vision, Python, TensorFlow, PyTorch, TypeScript, Kubernetes, Terraform, GCP, AWS",
+	}
 ]
 
 // Education --> #education section
