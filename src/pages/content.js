@@ -25,22 +25,13 @@ export const work = [
 // Projects --> #project section
 export const projects = [
   {
-    from: "2014",
-    to: "2015",
-    title: "Backend Engineering (GameLogic/Audience, Smalgo)",
+    from: "2017",
+    to: "Present",
+    title: "Research Engineering (AI Lab)",
     description:
-      "An online advertising system as demand-side platform (DSP) to focus on mobile game publishers.",
-    url: "https://www.slideshare.net/Satully/adtechstudio-20140301",
-    tech: "Java, MySQL, Redis, Ruby on Rails, Angular, AWS",
-  },
-  {
-    from: "2015",
-    to: "2016",
-    title: "Backend Engineering (Game Tailor)",
-    description:
-      "A dynamic retargeting ad product for smartphone apps. Tailor-made ads generated based on each game user status such as game level, selected characters and log in frequency will be served to worldwide game users through social medias.",
-    url: "https://rtbsquare.work/archives/6067",
-    tech: "Scala, MySQL, Aerospike, Apache Spark, RedShift, AWS",
+      "Scale R&D in my company via engineering such as MLOps and ResearchOps",
+    url: "https://cyberagent.ai/ailab/",
+    tech: "NLP, Computer Vision, Python, TensorFlow, PyTorch, TypeScript, Kubernetes, Terraform, GCP, AWS",
   },
   {
     from: "2016",
@@ -52,13 +43,22 @@ export const projects = [
     tech: "Scala, Java, Finagle, Python, TensorFlow, AWS, GCP",
   },
   {
-    from: "2017",
-    to: "Present",
-    title: "Research Engineering (AI Lab)",
+    from: "2015",
+    to: "2016",
+    title: "Backend Engineering (Game Tailor)",
     description:
-      "Scale R&D in my company via engineering such as MLOps and ResearchOps",
-    url: "https://cyberagent.ai/ailab/",
-    tech: "NLP, Computer Vision, Python, TensorFlow, PyTorch, TypeScript, Kubernetes, Terraform, GCP, AWS",
+      "A dynamic retargeting ad product for smartphone apps. Tailor-made ads generated based on each game user status such as game level, selected characters and log in frequency will be served to worldwide game users through social medias.",
+    url: "https://rtbsquare.work/archives/6067",
+    tech: "Scala, MySQL, Aerospike, Apache Spark, RedShift, AWS",
+  },
+  {
+    from: "2014",
+    to: "2015",
+    title: "Backend Engineering (GameLogic/Audience, Smalgo)",
+    description:
+      "An online advertising system as demand-side platform (DSP) to focus on mobile game publishers.",
+    url: "https://www.slideshare.net/Satully/adtechstudio-20140301",
+    tech: "Java, MySQL, Redis, Ruby on Rails, Angular, AWS",
   },
 ];
 
