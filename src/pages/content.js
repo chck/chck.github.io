@@ -45,7 +45,7 @@ export const projects = [
   {
     from: "2015",
     to: "2016",
-    title: "Backend Engineering (Game Tailor)",
+    title: "Backend Engineering and Front Engineering (Game Tailor)",
     description:
       "A dynamic retargeting ad product for smartphone apps. Tailor-made ads generated based on each game user status such as game level, selected characters and log in frequency will be served to worldwide game users through social medias.",
     url: "https://rtbsquare.work/archives/6067",
@@ -54,7 +54,8 @@ export const projects = [
   {
     from: "2014",
     to: "2015",
-    title: "Backend Engineering (GameLogic/Audience, Smalgo)",
+    title:
+      "Backend Engineering and Front Engineering (GameLogic/Audience, Smalgo)",
     description:
       "An online advertising system as demand-side platform (DSP) to focus on mobile game publishers.",
     url: "https://www.slideshare.net/Satully/adtechstudio-20140301",
