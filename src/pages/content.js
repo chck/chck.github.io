@@ -128,6 +128,13 @@ export const certificates = [
 // Blogs --> #blogs section
 export const blogs = [
   {
+    date: "8-Dec, 2025",
+    url: "https://zenn.dev/chck/articles/4a014227fb2c6f",
+    title: "Release Automation with Semantic Commits",
+    description:
+      "Introduce GitHub CI pipeline; generate release note, manage semantic versioning with conventional commits, and linter.",
+  },
+  {
     date: "17-Apr, 2025",
     url: "https://cyberagent.ai/blog/research/20228/",
     title: "Skill Up Boot Camp for Research Scientists",
