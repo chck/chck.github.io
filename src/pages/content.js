@@ -7,7 +7,7 @@ export const website = "https://chck.dev";
 
 // About
 export const about =
-  "I've spent three years as a web engineer and seven years as a research engineer at an online advertising company. My research interests lie in computer vision, natural language processing, and machine learning. The immediate mission is to scale R&D in my company via engineering such as MLOps and ResearchOps.";
+  "I've spent four years as a web engineer and seven years as a research engineer at an online advertising company. My research interests lie in computer vision, natural language processing, and machine learning. The immediate mission is to scale R&D in my company via engineering such as MLOps and ResearchOps.";
 
 // Work Experience --> #work section
 export const work = [
